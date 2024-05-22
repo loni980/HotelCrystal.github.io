@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shikoni dhomat tona dhe rezervoni qëndrimin tuaj në Hotel Crystal.">
+    <meta name="keywords" content="Hotel, Dhoma, Luksi, Komoditet">
+    <title>Hotel Crystal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo e Hotelit" class="logo">
+            <h1>HOTEL CRYSTAL</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" aria-label="Kreu">Kreu</a></li>
+                    <li><a href="rooms.html" aria-label="Dhoma">Dhomat</a></li>
+                    <li><a href="sherbime.html" aria-label="Shërbime">Shërbimet</a></li>
+                    <li><a href="kontakti.html" aria-label="Kontakti">Kontakti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="container">
+                <h2>Komoditeti juaj, Prioriteti ynë</h2>
+                <p>Mirë se vini në Hotel Crystal, ku lluksi takon komoditetin. Hoteli ynë ofron një arratisje të qetë nga zhurma e qytetit, me pajisje të shkëlqyera dhe shërbim të jashtëzakonshëm. Qoftë për biznes apo kënaqësi, ne synojmë ta bëjmë qëndrimin tuaj të paharrueshëm.</p>
+            </div>
+        </section>
+
+        <section id="why-choose-us">
+            <div class="container">
+                <h2>Përse të na zgjidhni ne?</h2>
+                <div class="reasons">
+                    <div class="reason">
+                        <img src="images/reason1.jpg" alt="Arsyeja 1">
+                        <p><strong>Shërbim i Jashtëzakonshëm:</strong> Stafi ynë është i përkushtuar për t'ju ofruar shërbimin më të mirë dhe për t'ju bërë të ndiheni si në shtëpinë tuaj.</p>
+                    </div>
+                    <div class="reason">
+                        <img src="images/reason2.jpg" alt="Arsyeja 2">
+                        <p><strong>Vendndodhje e Përkryer:</strong> Ne jemi të vendosur në zemër të qytetit, duke ju ofruar akses të lehtë në të gjitha atraksionet kryesore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking">
+            <div class="container">
+                <h2>Rezervoni dhomën tuaj</h2>
+                <p>Për të rezervuar një dhomë, plotësoni detajet tuaja, zgjidhni datat e vendosjes ne hotel dhe datën e daljes nga hoteli, dhe klikoni "Dërgo" për të vazhduar me rezervimin tuaj. Ekipi ynë do të konfirmojë rezervimin tuaj menjëherë.</p>
+                <form id="booking-form">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-in-date">Data e vendosjes:</label>
+                        <input type="date" id="check-in-date" name="check_in_date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out-date">Data e daljes:</label>
+                        <input type="date" id="check-out-date" name="check_out_date" required>
+                    </div>
+                    <button type="submit">Dërgo</button>
+                </form>
+                <p id="message"></p>
+                <div class="button-container">
+                    <button id="choose-room-button" class="modern-button" style="display: none;" onclick="window.location.href='rooms.html'">Zgjidhni Dhomën</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Shërbimet Tona</h2>
+                <p>Ne ofrojmë një gamë të gjerë shërbimesh për të siguruar një qëndrim të rehatshëm dhe të kënaqshëm për të gjithë mysafirët tanë:</p>
+                <ul>
+                    <li>Shërbim 24-orë në dhomë</li>
+                    <li>Wi-Fi falas</li>
+                    <li>Qendër fitnesi dhe spa</li>
+                    <li>Salla konferencash</li>
+                    <li>Shërbim transporti</li>
+                    <li>Shërbim lavanderie</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Na Kontaktoni</h2>
+                <p>Mund të na kontaktoni për çdo pyetje ose rezervim:</p>
+                <ul>
+                    <li>Email: <a href="mailto:Hotelcrystal2024@gmail.com">Hotelcrystal2024@gmail.com</a></li>
+                    <li>Telefon: <a href="tel:+38344877529">+383 44877529</a></li>
+                    <li>Adresë: Rr."Qëndresa e Likoshanit", Prishtinë, Kosovë</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hotel Crystal. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
